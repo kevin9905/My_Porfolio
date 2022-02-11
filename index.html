@@ -117,7 +117,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="skill-item mb-4">
-                <h1 class="fs-6"> Html </h1>
+                <h1 class="fs-6"> HTML </h1>
                 <div class="progress" style="height: 10px;">
                     <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
@@ -129,7 +129,7 @@
                 </div>
               </div>
               <div class="skill-item mb-4">
-                <h3 class="fs-6">JavaSCript</h3>
+                <h3 class="fs-6">JavaScript</h3>
                 <div class="progress" style="height: 10px;">
                     <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 85%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
@@ -178,7 +178,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="section-title text-center">
-            <h2 class="fw-bold mb-5">Servies</h2>
+            <h2 class="fw-bold mb-5">Services</h2>
           </div>
         </div>
       </div>
@@ -336,32 +336,33 @@
         </div>
         <div class="col-md-7">
           <div class="contact-form">
-            <form>
+            <form action="https://formsubmit.co/ncao1263@email.com" method="POST">
               <div class="row">
+                <!--Honeypot--->
+                <input type="text" name="_honey" style="display:none;">
+                <!--Disable Captcha-->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://nguyenpham.netlify.app/success.html">
                 <div class="col-lg-6 mb-4">
-                  <input type="text" placeholder="Your Name" class="form-control form-control-large fs-6 border-0 shadow-sm">
+                  <input type="text" placeholder="Your Name" class="form-control form-control-large fs-6 border-0 shadow-sm" required>
                 </div>
                 <div class="col-lg-6 mb-4">
-                  <input type="text" placeholder="Your Email" class="form-control form-control-large fs-6 border-0 shadow-sm">
+                  <input type="text" placeholder="Your Email" class="form-control form-control-large fs-6 border-0 shadow-sm" required>
                 </div>
               </div>
                 <div class="row">
                   <div class="col-lg-12 mb-4">
-                    <input type="text" placeholder="Subject" class="form-control form-control-large fs-6 border-0 shadow-sm">
+                    <input type="text" placeholder="Subject" class="form-control form-control-large fs-6 border-0 shadow-sm" required>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-lg-12 mb-4">
-                    <textarea type="text" rows="5" placeholder="Your Message" class="form-control form-control-large fs-6 border-0 shadow-sm"></textarea>
+                    <textarea type="text" rows="5" placeholder="Your Message" class="form-control form-control-large fs-6 border-0 shadow-sm" required></textarea>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-lg-12 mb-4">
 
-                  </div>
-                </div>
                 <div class="row">
-                    <div clas="col-lg-12">
+                    <div class="col-lg-12">
                         <button type="submit" class="btn btn-info px-3">Send Message</button>
                     </div>
                 </div>
@@ -377,7 +378,7 @@
       <div class="container-lg">
         <div class="row">
           <div class="col-lg-12">
-            <p class="m-0 text-center">&copy; 2021 Nguyen Pham</p>
+            <p class="m-0 text-center">&copy; 2022 Nguyen Pham</p>
           </div>
         </div>
       </div>
